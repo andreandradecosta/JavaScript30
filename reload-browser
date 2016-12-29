@@ -1,0 +1,2 @@
+#!/bin/sh
+find * | entr xdotool search --onlyvisible --class "chrome" windowfocus key --window 0 'ctrl+r'
